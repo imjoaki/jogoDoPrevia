@@ -1,0 +1,19 @@
+/*Estilos del login*/
+body{
+    background-image: url('img/fondo.png');
+    height: 100%;
+    align-items: center;
+}
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  .bg-red{
+      background-color: #cb3838ff
+  }
+  .mycard{
+      height: 600px;
+      width: 400px;
+  }

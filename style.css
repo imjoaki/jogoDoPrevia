@@ -17,3 +17,12 @@ body{
       height: 600px;
       width: 400px;
   }
+  /*Fuentes cargadas*/
+  @font-face{
+      font-family: 'Curlz';
+      src: url(webfonts/CURLZ___.TTF);
+  }
+  @font-face{
+      font-family: 'Algerian';
+      src: url(webfonts/ALGER.TTF);
+  }

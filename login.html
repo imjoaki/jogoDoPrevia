@@ -24,12 +24,9 @@
             <input
               type="email"
               id="usuario"
-              class="form-control"
+              class="form-control mb-2"
               placeholder="Coloque su usuario"
             />
-            <label class="form-label m-2 text-primary" for="contra"
-              >Contraseña</label
-            >
             <p class="text-center lead">Mayor de Edad?</p>
             <div class="form-check form-check-inline">
               <input
@@ -63,6 +60,60 @@
         </form>
       </div>
     </div>
+    <div
+      class="modal fade"
+      id="modalMenor"
+      tabindex="-1"
+      aria-labelledby="modalMenorLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalMenorLabel">Lo siento crack!</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead">
+              En este juego solo aceptamos gente con calle. No vimo en Tokio
+            </p>
+            <p class="lead text-center">
+              Nadie pasa de esta esquina <br />
+              Aquí mandan las divinas <br />
+              Porque somos gasolina <br />
+              Gasolina de verdad <br />
+              Todos saben quien manda en esta school <br />
+              Porque nosotras somos gente cool <br />
+              Gente que siente con sangre caliente <br />
+              Que quiere hacerse oír <br />
+              Sea como sea, aquí no entran feas <br />
+              Pa' que lo veas te voy a mostrar <br />
+              Mira esa fea, aquí hay otra fea <br />
+              <strong>Aquí no pueden entrar</strong>
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary m-auto"
+              data-bs-dismiss="modal"
+            >
+              Cerrar mensaje
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
     <script src="login.js"></script>
   </body>
 </html>

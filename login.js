@@ -41,6 +41,8 @@ function chequearLogin() {
     mayor.classList.add("alert-danger");
   } else if (menor.checked == true) {
     inputUsuario.classList.remove("alert-danger");
+    menor.classList.remove("alert-danger");
+    mayor.classList.remove("alert-danger");
     botonLogin.setAttribute("data-bs-toggle", "modal");
     botonLogin.setAttribute("data-bs-target", "#modalMenor");
     botonLogin.click();

@@ -1,0 +1,40 @@
+/*Estilos del login*/
+body{
+    background-image: url('img/fondo.png');
+    height: 100%;
+    align-items: center;
+}
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  .bg-red{
+      background-color: #cb3838ff
+  }
+  .bg-dorado{
+      background-color: #cb8f38ff;
+  }
+  .mycard{
+      height: 600px;
+      width: 400px;
+      border-radius: 10px;
+  }
+  
+  /*Fuentes cargadas*/
+  @font-face{
+      font-family: 'Curlz';
+      src: url(webfonts/CURLZ___.TTF);
+  }
+  @font-face{
+      font-family: 'Algerian';
+      src: url(webfonts/ALGER.TTF);
+  }
+/*clase para aplicar tipografia*/
+.text-curlz{
+    font-family: 'Curlz';
+}
+.text-algerian{
+    font-family: 'Algerian';
+}

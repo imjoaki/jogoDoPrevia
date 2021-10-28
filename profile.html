@@ -42,21 +42,21 @@
       <div class="row">
         <form class="col-6 needs-validation" novalidate>
           <div class="col">
-            <label for="validationCustom01" class="form-label">Nombre</label>
+            <label for="nombre" class="form-label">Nombre</label>
             <input
               type="text"
               class="form-control"
-              id="validationCustom01"
+              id="nombre"
               placeholder="Ingrese su nombre..."
               required
             />
             <div class="valid-feedback">Looks good!</div>
           </div>
           <div class="col">
-            <label for="validationCustom04" class="form-label"
+            <label for="departamento" class="form-label"
               >Departamento</label
             >
-            <select class="form-select" id="validationCustom04" required>
+            <select class="form-select" id="departamento" required>
               <option selected disabled value="">
                 Eliga su departamento de origen...
               </option>
@@ -89,10 +89,10 @@
                 class="form-check-input"
                 type="checkbox"
                 value=""
-                id="invalidCheck"
+                id="acepto1"
                 required
               />
-              <label class="form-check-label" for="invalidCheck">
+              <label class="form-check-label" for="acepto1">
                 Agree to terms and conditions
               </label>
               <div class="invalid-feedback">
@@ -112,18 +112,37 @@
             name="numero"
             id="elNumero"
             class="form-control"
+            max="9"
+            min="6"
           />
           <div class="form-check">
             <input
               class="form-check-input"
               type="checkbox"
               value=""
-              id="invalidCheck"
+              id="acepto2"
               required
             />
-            <label class="form-check-label" for="invalidCheck">
+            <label class="form-check-label" for="acepto2">
               Agree to terms and conditions
             </label>
+
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="mandarCosas"
+              required
+            />
+            <label class="form-check-label" for="mandarCosas">
+              Quiero que me manden cosas
+            </label>
+
             <div class="invalid-feedback">
               You must agree before submitting.
             </div>
